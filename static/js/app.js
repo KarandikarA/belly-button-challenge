@@ -87,7 +87,7 @@ function updateBubble(otuIDS, sampleValues, hoverText) {
     }];
 
     let bubbleLayout = {
-        title: {text: 'Sample Values', font: {size: 24}},
+        title: {text: 'Sample Values', font: {size: 25}},
         xaxis: {
             title: "OTU ID"
         }
@@ -107,7 +107,7 @@ function updateBar(otuIDS, sampleValues, hoverText) {
     }];
 
     let layout = {
-        title: {text: "Top 10 OTUs", font: {size: 24}},
+        title: {text: "Top 10 OTUs", font: {size: 25}},
         yaxis: {
             autorange: 'reversed'
         }
@@ -122,7 +122,7 @@ function updateGauge(wFreq) {
         {   
             type: "indicator",
             mode: "gauge+number",
-            title: { text: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week", font: { size: 24 } },
+            title: { text: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week", font: { size: 25 } },
             value : parseInt(wFreq),
             gauge: {
                 axis:{
